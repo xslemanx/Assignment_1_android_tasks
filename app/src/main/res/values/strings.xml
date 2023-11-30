@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">as1</string>
+    <string name="task_tilte">task tilte</string>
+    <string name="task_description">task description</string>
+    <string name="date_until_dd_mm_yyyy">date until dd/mm/yyyy</string>
+    <string name="save">Save</string>
+    <string name="is_done">is Done?</string>
+    <string name="save_1">Save</string>
+    <string name="add_new_task">add new task</string>
+    <string name="edit_task">edit Task</string>
+    <string name="delete_task">delete Task</string>
+</resources>

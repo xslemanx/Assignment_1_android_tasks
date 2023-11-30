@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#293261"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".addTask">
+
+    <TextView
+        android:id="@+id/edt_task_title"
+        style="@style/plain_style"
+        android:layout_height="40dp"
+        android:background="#021C30"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/scrl_view_description"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:background="#021C30">
+
+        <EditText
+            android:id="@+id/edt_task_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            tools:ignore="LabelFor,RtlCompat"
+            android:autofillHints="none" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#021C30"
+        android:ems="10"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FDFDFD"
+        android:autofillHints="none"
+        tools:ignore="LabelFor" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#021C30"
+        android:text="@string/is_done"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_1"
+        app:icon="@android:drawable/stat_sys_download_done" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
